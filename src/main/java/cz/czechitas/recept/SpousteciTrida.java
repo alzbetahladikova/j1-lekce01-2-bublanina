@@ -37,10 +37,12 @@ public class SpousteciTrida {
         //---------------------------------------------------------------------
 
         // TODO: Sem napiste recept na bublaninu
+
         // Pouzivejte napovidani v editoru.
         // Vyskakuje samo nebo pomoci Ctrl+Mezernik
-
-        cervenaMiska.nalozSiJedenKus(vajicka);
+int pocVajec=4;
+for (int i=0;i<pocVajec;i++){
+        cervenaMiska.nalozSiJedenKus(vajicka);}
     }
 
 }
