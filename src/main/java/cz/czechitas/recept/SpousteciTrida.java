@@ -53,20 +53,24 @@ int vahaMouky = 250;
 while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)!=vahaMouky){
 
 while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)<vahaMouky) {
-    zlutaMiska.nalozSiTrochu(pytlikMouky); }
+    zlutaMiska.nalozSiTrochu(pytlikMouky);}
 while (vahaMouky<kuchynskaVaha.zjistiHmotnost(zlutaMiska)){
-    zlutaMiska.vylozSiTrochu() ;
+    zlutaMiska.vylozSiTrochu();
 }}
-
-
-
-
-
-
-
-
-
-
+cervenaMiska.nalozSiObsahJineMisky(zlutaMiska);
+cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
+mixer.zamichej(cervenaMiska);
+plech.preberSiObsah(cervenaMiska);
+int maliny=50;
+for (int i=0;i<maliny;i++){plech.posypSeKusem(ovoce);
+}
+trouba.zapniSe(180);
+trouba.nechejPect(5);
+trouba.isPredehrata();
+trouba.vlozSiDovnitr(plech);
+trouba.nechejPect(25);
+trouba.vypniSe();
+trouba.vyndejObsahVen();
     }
 
 }
