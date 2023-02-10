@@ -43,6 +43,30 @@ public class SpousteciTrida {
 int pocVajec=4;
 for (int i=0;i<pocVajec;i++){
         cervenaMiska.nalozSiJedenKus(vajicka);}
+cervenaMiska.nalozSiCelyObsah(pytlikCukru);
+mixer.zamichej(cervenaMiska);
+cervenaMiska.nalozSiCelyObsah(maslo125g);
+mixer.zamichej(cervenaMiska);
+kuchynskaVaha.vynulujSeS(zlutaMiska);
+zlutaMiska.nalozSiTrochu(pytlikMouky);
+int vahaMouky = 250;
+while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)!=vahaMouky){
+
+while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)<vahaMouky) {
+    zlutaMiska.nalozSiTrochu(pytlikMouky); }
+while (vahaMouky<kuchynskaVaha.zjistiHmotnost(zlutaMiska)){
+    zlutaMiska.vylozSiTrochu() ;
+}}
+
+
+
+
+
+
+
+
+
+
     }
 
 }
