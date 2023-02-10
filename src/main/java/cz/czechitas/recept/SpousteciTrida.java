@@ -51,7 +51,6 @@ kuchynskaVaha.vynulujSeS(zlutaMiska);
 zlutaMiska.nalozSiTrochu(pytlikMouky);
 int vahaMouky = 250;
 while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)!=vahaMouky){
-
 while (kuchynskaVaha.zjistiHmotnost(zlutaMiska)<vahaMouky) {
     zlutaMiska.nalozSiTrochu(pytlikMouky);}
 while (vahaMouky<kuchynskaVaha.zjistiHmotnost(zlutaMiska)){
